@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550EF1A62BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF1A52BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryApp.swift */; };
+		550EF1A82BE73E94000ABFD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF1A72BE73E94000ABFD9 /* ContentView.swift */; };
+		550EF1AA2BE73E94000ABFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550EF1A92BE73E94000ABFD9 /* Assets.xcassets */; };
+		550EF1AD2BE73E94000ABFD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550EF1AC2BE73E94000ABFD9 /* Preview Assets.xcassets */; };
+		550EF1B72BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF1B62BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.swift */; };
+		550EF1C12BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF1C02BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.swift */; };
+		550EF1C32BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EF1C22BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550EF1B32BE73E94000ABFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550EF19A2BE73E94000ABFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550EF1A12BE73E94000ABFD9;
+			remoteInfo = NYCWeeklyTrafficAdvisory;
+		};
+		550EF1BD2BE73E95000ABFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550EF19A2BE73E94000ABFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550EF1A12BE73E94000ABFD9;
+			remoteInfo = NYCWeeklyTrafficAdvisory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550EF1A22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCWeeklyTrafficAdvisory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550EF1A52BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCWeeklyTrafficAdvisoryApp.swift; sourceTree = "<group>"; };
+		550EF1A72BE73E94000ABFD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		550EF1A92BE73E94000ABFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550EF1AC2BE73E94000ABFD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		550EF1B22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCWeeklyTrafficAdvisoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550EF1B62BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCWeeklyTrafficAdvisoryTests.swift; sourceTree = "<group>"; };
+		550EF1BC2BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCWeeklyTrafficAdvisoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550EF1C02BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCWeeklyTrafficAdvisoryUITests.swift; sourceTree = "<group>"; };
+		550EF1C22BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550EF19F2BE73E94000ABFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1AF2BE73E94000ABFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1B92BE73E94000ABFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550EF1992BE73E94000ABFD9 = {
+			isa = PBXGroup;
+			children = (
+				550EF1A42BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */,
+				550EF1B52BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests */,
+				550EF1BF2BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests */,
+				550EF1A32BE73E94000ABFD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550EF1A32BE73E94000ABFD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550EF1A22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory.app */,
+				550EF1B22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.xctest */,
+				550EF1BC2BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550EF1A42BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */ = {
+			isa = PBXGroup;
+			children = (
+				550EF1A52BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryApp.swift */,
+				550EF1A72BE73E94000ABFD9 /* ContentView.swift */,
+				550EF1A92BE73E94000ABFD9 /* Assets.xcassets */,
+				550EF1AB2BE73E94000ABFD9 /* Preview Content */,
+			);
+			path = NYCWeeklyTrafficAdvisory;
+			sourceTree = "<group>";
+		};
+		550EF1AB2BE73E94000ABFD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				550EF1AC2BE73E94000ABFD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		550EF1B52BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				550EF1B62BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.swift */,
+			);
+			path = NYCWeeklyTrafficAdvisoryTests;
+			sourceTree = "<group>";
+		};
+		550EF1BF2BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550EF1C02BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.swift */,
+				550EF1C22BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift */,
+			);
+			path = NYCWeeklyTrafficAdvisoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550EF1A12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550EF1C62BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisory" */;
+			buildPhases = (
+				550EF19E2BE73E94000ABFD9 /* Sources */,
+				550EF19F2BE73E94000ABFD9 /* Frameworks */,
+				550EF1A02BE73E94000ABFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYCWeeklyTrafficAdvisory;
+			productName = NYCWeeklyTrafficAdvisory;
+			productReference = 550EF1A22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550EF1B12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550EF1C92BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisoryTests" */;
+			buildPhases = (
+				550EF1AE2BE73E94000ABFD9 /* Sources */,
+				550EF1AF2BE73E94000ABFD9 /* Frameworks */,
+				550EF1B02BE73E94000ABFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550EF1B42BE73E94000ABFD9 /* PBXTargetDependency */,
+			);
+			name = NYCWeeklyTrafficAdvisoryTests;
+			productName = NYCWeeklyTrafficAdvisoryTests;
+			productReference = 550EF1B22BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550EF1BB2BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550EF1CC2BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisoryUITests" */;
+			buildPhases = (
+				550EF1B82BE73E94000ABFD9 /* Sources */,
+				550EF1B92BE73E94000ABFD9 /* Frameworks */,
+				550EF1BA2BE73E94000ABFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550EF1BE2BE73E95000ABFD9 /* PBXTargetDependency */,
+			);
+			name = NYCWeeklyTrafficAdvisoryUITests;
+			productName = NYCWeeklyTrafficAdvisoryUITests;
+			productReference = 550EF1BC2BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550EF19A2BE73E94000ABFD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					550EF1A12BE73E94000ABFD9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					550EF1B12BE73E94000ABFD9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 550EF1A12BE73E94000ABFD9;
+					};
+					550EF1BB2BE73E94000ABFD9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 550EF1A12BE73E94000ABFD9;
+					};
+				};
+			};
+			buildConfigurationList = 550EF19D2BE73E94000ABFD9 /* Build configuration list for PBXProject "NYCWeeklyTrafficAdvisory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550EF1992BE73E94000ABFD9;
+			productRefGroup = 550EF1A32BE73E94000ABFD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550EF1A12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */,
+				550EF1B12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests */,
+				550EF1BB2BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550EF1A02BE73E94000ABFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550EF1AD2BE73E94000ABFD9 /* Preview Assets.xcassets in Resources */,
+				550EF1AA2BE73E94000ABFD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1B02BE73E94000ABFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1BA2BE73E94000ABFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550EF19E2BE73E94000ABFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550EF1A82BE73E94000ABFD9 /* ContentView.swift in Sources */,
+				550EF1A62BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1AE2BE73E94000ABFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550EF1B72BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550EF1B82BE73E94000ABFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550EF1C12BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITests.swift in Sources */,
+				550EF1C32BE73E95000ABFD9 /* NYCWeeklyTrafficAdvisoryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550EF1B42BE73E94000ABFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550EF1A12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */;
+			targetProxy = 550EF1B32BE73E94000ABFD9 /* PBXContainerItemProxy */;
+		};
+		550EF1BE2BE73E95000ABFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550EF1A12BE73E94000ABFD9 /* NYCWeeklyTrafficAdvisory */;
+			targetProxy = 550EF1BD2BE73E95000ABFD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		550EF1C42BE73E95000ABFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		550EF1C52BE73E95000ABFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550EF1C72BE73E95000ABFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCWeeklyTrafficAdvisory/Preview Content\"";
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550EF1C82BE73E95000ABFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCWeeklyTrafficAdvisory/Preview Content\"";
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		550EF1CA2BE73E95000ABFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCWeeklyTrafficAdvisory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NYCWeeklyTrafficAdvisory";
+			};
+			name = Debug;
+		};
+		550EF1CB2BE73E95000ABFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCWeeklyTrafficAdvisory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NYCWeeklyTrafficAdvisory";
+			};
+			name = Release;
+		};
+		550EF1CD2BE73E95000ABFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCWeeklyTrafficAdvisory;
+			};
+			name = Debug;
+		};
+		550EF1CE2BE73E95000ABFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAQW6R49BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lloyd-Labs-NYC.NYCWeeklyTrafficAdvisoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCWeeklyTrafficAdvisory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550EF19D2BE73E94000ABFD9 /* Build configuration list for PBXProject "NYCWeeklyTrafficAdvisory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550EF1C42BE73E95000ABFD9 /* Debug */,
+				550EF1C52BE73E95000ABFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550EF1C62BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550EF1C72BE73E95000ABFD9 /* Debug */,
+				550EF1C82BE73E95000ABFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550EF1C92BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550EF1CA2BE73E95000ABFD9 /* Debug */,
+				550EF1CB2BE73E95000ABFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550EF1CC2BE73E95000ABFD9 /* Build configuration list for PBXNativeTarget "NYCWeeklyTrafficAdvisoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550EF1CD2BE73E95000ABFD9 /* Debug */,
+				550EF1CE2BE73E95000ABFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550EF19A2BE73E94000ABFD9 /* Project object */;
+}
